@@ -1,8 +1,6 @@
 import 'package:http/http.dart';
 import 'dart:convert';
 import 'package:intl/intl.dart';
-import 'package:restart_app/restart_app.dart';
-import 'dart:io';
 
 class WorldTime {
   String location;
