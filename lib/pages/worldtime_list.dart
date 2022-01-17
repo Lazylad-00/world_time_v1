@@ -84,7 +84,7 @@ List<WorldTime> locations = [
   WorldTime(
       location: "Bolivia",
       flag: "https://www.worldometers.info/img/flags/bl-flag.gif",
-      uriName: "America/La Paz"),
+      uriName: "America/La_Paz"),
   WorldTime(
       location: "Bosnia and Herzegovina",
       flag: "https://www.worldometers.info/img/flags/bk-flag.gif",
@@ -196,7 +196,7 @@ List<WorldTime> locations = [
   WorldTime(
       location: "Dominican Republic",
       flag: "https://www.worldometers.info/img/flags/dr-flag.gif",
-      uriName: "America/Santo Domingo"),
+      uriName: "America/Santo_Domingo"),
   WorldTime(
       location: "DPRK",
       flag: "https://www.worldometers.info/img/flags/kn-flag.gif",
@@ -216,7 +216,7 @@ List<WorldTime> locations = [
   WorldTime(
       location: "El Salvador",
       flag: "https://www.worldometers.info/img/flags/es-flag.gif",
-      uriName: "America/El Salvador"),
+      uriName: "America/El_Salvador"),
   WorldTime(
       location: "Equatorial Guinea",
       flag: "https://www.worldometers.info/img/flags/ek-flag.gif",
@@ -236,7 +236,7 @@ List<WorldTime> locations = [
   WorldTime(
       location: "Ethiopia",
       flag: "https://www.worldometers.info/img/flags/et-flag.gif",
-      uriName: "Africa/Addis Ababa"),
+      uriName: "Africa/Addis_Ababa"),
   WorldTime(
       location: "Fiji",
       flag: "https://www.worldometers.info/img/flags/fj-flag.gif",
@@ -420,7 +420,7 @@ List<WorldTime> locations = [
   WorldTime(
       location: "Malaysia",
       flag: "https://www.worldometers.info/img/flags/my-flag.gif",
-      uriName: "Asia/Kuala Lumpur"),
+      uriName: "Asia/Kuala_Lumpur"),
   WorldTime(
       location: "Maldives",
       flag: "https://www.worldometers.info/img/flags/mv-flag.gif",
@@ -448,7 +448,7 @@ List<WorldTime> locations = [
   WorldTime(
       location: "Mexico",
       flag: "https://www.worldometers.info/img/flags/mx-flag.gif",
-      uriName: "America/Mexico City"),
+      uriName: "America/Mexico_City"),
   WorldTime(
       location: "Micronesia",
       flag: "https://www.worldometers.info/img/flags/fm-flag.gif",
@@ -540,7 +540,7 @@ List<WorldTime> locations = [
   WorldTime(
       location: "Papua New Guinea",
       flag: "https://www.worldometers.info/img/flags/pp-flag.gif",
-      uriName: "Pacific/Port Moresby"),
+      uriName: "Pacific/Port_Moresby"),
   WorldTime(
       location: "Paraguay",
       flag: "https://www.worldometers.info/img/flags/pa-flag.gif",
@@ -580,11 +580,11 @@ List<WorldTime> locations = [
   WorldTime(
       location: "Saint Kitts and Nevis",
       flag: "https://www.worldometers.info/img/flags/sc-flag.gif",
-      uriName: "America/St Kitts"),
+      uriName: "America/St_Kitts"),
   WorldTime(
       location: "Saint Lucia",
       flag: "https://www.worldometers.info/img/flags/st-flag.gif",
-      uriName: "America/St Lucia"),
+      uriName: "America/St_Lucia"),
   WorldTime(
       location: "Samoa",
       flag: "https://www.worldometers.info/img/flags/ws-flag.gif",
@@ -596,7 +596,7 @@ List<WorldTime> locations = [
   WorldTime(
       location: "Sao Tome and Principe",
       flag: "https://www.worldometers.info/img/flags/tp-flag.gif",
-      uriName: "Africa/Sao Tome"),
+      uriName: "Africa/Sao_Tome"),
   WorldTime(
       location: "Saudi Arabia",
       flag: "https://www.worldometers.info/img/flags/sa-flag.gif",
@@ -636,7 +636,7 @@ List<WorldTime> locations = [
   WorldTime(
       location: "Somalia",
       flag: "https://www.worldometers.info/img/flags/so-flag.gif",
-      uriName: "Pacific/Guadalcanal"),
+      uriName: "Africa/Mogadishu"),
   WorldTime(
       location: "South Africa",
       flag: "https://www.worldometers.info/img/flags/sf-flag.gif",
@@ -660,7 +660,7 @@ List<WorldTime> locations = [
   WorldTime(
       location: "St. Vincent Grenadines",
       flag: "https://www.worldometers.info/img/flags/vc-flag.gif",
-      uriName: "America/St Vincent"),
+      uriName: "America/St_Vincent"),
   WorldTime(
       location: "State of Palestine",
       flag: "https://www.worldometers.info/img/flags/palestine-flag.gif",
@@ -692,7 +692,7 @@ List<WorldTime> locations = [
   WorldTime(
       location: "Tanzania",
       flag: "https://www.worldometers.info/img/flags/tz-flag.gif",
-      uriName: "Africa/Dar es_Salaam"),
+      uriName: "Africa/Dar_es_Salaam"),
   WorldTime(
       location: "Thailand",
       flag: "https://www.worldometers.info/img/flags/th-flag.gif",
@@ -712,7 +712,7 @@ List<WorldTime> locations = [
   WorldTime(
       location: "Trinidad and Tobago",
       flag: "https://www.worldometers.info/img/flags/td-flag.gif",
-      uriName: "America/Port of_Spain"),
+      uriName: "America/Port_of_Spain"),
   WorldTime(
       location: "Tunisia",
       flag: "https://www.worldometers.info/img/flags/ts-flag.gif",
@@ -768,7 +768,7 @@ List<WorldTime> locations = [
   WorldTime(
       location: "Vietnam",
       flag: "https://www.worldometers.info/img/flags/vm-flag.gif",
-      uriName: "Asia/Ho Chi_Minh"),
+      uriName: "Asia/Ho_Chi_Minh"),
   WorldTime(
       location: "Yemen",
       flag: "https://www.worldometers.info/img/flags/ym-flag.gif",
