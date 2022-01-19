@@ -32,12 +32,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-  /*   initialRoute: '/',
-    routes: {
-      '/': (context) => const Loading(),
-      '/home': (context) => const Home(),
-      '/location': (context) => const ChooseLocation(),
-    }, */
-
-
