@@ -37,6 +37,8 @@ class WorldTime {
       time = "Error";
     }
   }
+
+  startsWith(String query) {}
 }
 
 

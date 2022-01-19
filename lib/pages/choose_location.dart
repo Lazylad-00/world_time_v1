@@ -44,6 +44,13 @@ class _ChooseLocationState extends State<ChooseLocation> {
           title: const Text("Choose a Location"),
           centerTitle: true,
           elevation: 0.0,
+          actions: [
+            IconButton(
+                onPressed: () {
+                  showSearch(context: context, delegate: Search());
+                },
+                icon: const Icon(Icons.search))
+          ],
         ),
         body: pageUI());
   }
@@ -79,5 +86,67 @@ class _ChooseLocationState extends State<ChooseLocation> {
         child: CircularProgressIndicator(),
       );
     });
+  }
+}
+
+class Search extends SearchDelegate {
+  final searchlist = locations;
+
+  @override
+  List<Widget>? buildActions(BuildContext context) {
+    return <Widget>[
+      IconButton(onPressed: () {}, icon: const Icon(Icons.clear))
+    ];
+  }
+
+  @override
+  Widget? buildLeading(BuildContext context) {
+    return IconButton(
+        onPressed: () {
+          close(context, null);
+        },
+        icon: const Icon(Icons.arrow_back));
+  }
+
+  @override
+  Widget buildResults(BuildContext context) {
+    // ignore: null_check_always_fails
+    return null!;
+  }
+
+  @override
+  Widget buildSuggestions(BuildContext context) {
+    final suggesionlist = query.isEmpty
+        ? locations
+        : locations
+            .where((element) => element.location.startsWith(query))
+            .toList();
+    return ListView.builder(
+      itemBuilder: (context, index) {
+        return Padding(
+          padding: const EdgeInsets.symmetric(vertical: 1.0, horizontal: 4.0),
+          child: Card(
+            child: ListTile(
+              onTap: () async {
+                WorldTime instance = suggesionlist[index];
+                await instance.getTime();
+
+                Navigator.pushReplacementNamed(context, '/home', arguments: {
+                  "location": instance.location,
+                  "flag": instance.flag,
+                  "time": instance.time,
+                  "timephase": instance.timephase
+                });
+              },
+              title: Text(suggesionlist[index].location),
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage(suggesionlist[index].flag),
+              ),
+            ),
+          ),
+        );
+      },
+      itemCount: suggesionlist.length,
+    );
   }
 }
